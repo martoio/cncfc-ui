@@ -11,9 +11,11 @@ $color-accent: 	#E63462;
 $color-primary: #FE5F55;
 $color-light: 	#C7EFCF;
 $color-white: 	#EEF5DB;
+$font: "Ubuntu", sans-serif;
 
 body{
 	background: $color-white;
+	font-family: $font;
 }
 
 h1{
@@ -27,9 +29,21 @@ h1{
 	border-radius: 12px;
 }
 
+.card .icon-holder{
+	border-radius: 9500px;
+	text-align: center;
+	width: 500px;
+	height: 500px; 
+	background: $color-primary;
+	margin: 0 auto;
+	border: 12px solid $color-accent;
+}
+
 .card i{
-	font-size: 30em;
-	color: $color-light;
+	font-size: 400px;
+	width: 400px;
+	display: inline-block;
+	color: $color-white;
 	text-align: center;
 }
 

@@ -7,7 +7,8 @@ Colors
 #EEF5DB
  */
 body {
-  background: #EEF5DB; }
+  background: #EEF5DB;
+  font-family: "Ubuntu", sans-serif; }
 
 h1 {
   text-align: center;
@@ -19,9 +20,20 @@ h1 {
   color: white;
   border-radius: 12px; }
 
+.card .icon-holder {
+  border-radius: 9500px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background: #FE5F55;
+  margin: 0 auto;
+  border: 12px solid #E63462; }
+
 .card i {
-  font-size: 30em;
-  color: #C7EFCF;
+  font-size: 400px;
+  width: 400px;
+  display: inline-block;
+  color: #EEF5DB;
   text-align: center; }
 
 .card-body {
