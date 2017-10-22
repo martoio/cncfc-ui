@@ -27,6 +27,11 @@ h1{
 	padding: 4px;
 	color: white;
 	border-radius: 12px;
+	
+	&:hover{
+		cursor: pointer;
+		box-shadow: 0 0 30px black;
+	}
 }
 
 .card .icon-holder{
@@ -50,4 +55,21 @@ h1{
 .card-body{
 	border-top: 3px solid #ccc;
 	text-align: center;
+}
+
+
+/* === MODALS ===*/
+
+.btn-primary{
+	background: $color-accent;
+	border: none;
+}
+.btn-primary a{
+	color: white;
+	text-decoration: none;
+}
+
+.modal-body .list-group-item:hover{
+	background: #007bff;
+	transition: background 0.2s ease-in-out;
 }
