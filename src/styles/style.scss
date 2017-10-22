@@ -1,0 +1,39 @@
+/*
+Colors
+#333745
+#E63462
+#FE5F55
+#C7EFCF 
+#EEF5DB
+ */
+$color-dark: 	#333745;
+$color-accent: 	#E63462;
+$color-primary: #FE5F55;
+$color-light: 	#C7EFCF;
+$color-white: 	#EEF5DB;
+
+body{
+	background: $color-white;
+}
+
+h1{
+	text-align: center;
+	margin: 48px 0;
+}
+.card{
+	background: $color-dark;
+	padding: 4px;
+	color: white;
+	border-radius: 12px;
+}
+
+.card i{
+	font-size: 30em;
+	color: $color-light;
+	text-align: center;
+}
+
+.card-body{
+	border-top: 3px solid #ccc;
+	text-align: center;
+}

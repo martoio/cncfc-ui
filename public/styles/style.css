@@ -1,0 +1,31 @@
+/*
+Colors
+#333745
+#E63462
+#FE5F55
+#C7EFCF 
+#EEF5DB
+ */
+body {
+  background: #EEF5DB; }
+
+h1 {
+  text-align: center;
+  margin: 48px 0; }
+
+.card {
+  background: #333745;
+  padding: 4px;
+  color: white;
+  border-radius: 12px; }
+
+.card i {
+  font-size: 30em;
+  color: #C7EFCF;
+  text-align: center; }
+
+.card-body {
+  border-top: 3px solid #ccc;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
