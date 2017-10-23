@@ -56,4 +56,40 @@ h1 {
   background: #007bff;
   transition: background 0.2s ease-in-out; }
 
+/*=== SECOND PAGE === */
+header {
+  display: flex;
+  background: #eee; }
+  header nav {
+    width: 10%; }
+  header h1 {
+    margin: 0;
+    flex-grow: 8; }
+  header .placeholder {
+    width: 10%; }
+
+main {
+  height: 560px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: #C7EFCF; }
+
+section .container .card .icon-holder {
+  border-radius: 9500px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  background: #FE5F55;
+  margin: 0 auto;
+  border: 12px solid #E63462;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+section .container .card i {
+  font-size: 90px;
+  width: 90px;
+  display: inline-block;
+  color: #EEF5DB;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
